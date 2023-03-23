@@ -1,11 +1,11 @@
-About mne-kit-gui
-=================
+About mne-kit-gui-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mne-kit-gui-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/mne-tools/mne-kit-gui
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mne-kit-gui-feedstock/blob/main/LICENSE.txt)
 
 Summary: A module for KIT MEG coregistration.
 
