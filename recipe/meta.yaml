@@ -11,7 +11,7 @@ source:
   sha256: ca319b34355a515c2d599f3149d71a4e8ba30309b7e3cf044f9ebb6a13b3ee18
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -24,6 +24,7 @@ requirements:
     - mne-base >=0.23
     - mayavi
     - pyqt >=5.12
+    - nibabel
 
 test:
   imports:
