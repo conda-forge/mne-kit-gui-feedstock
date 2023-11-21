@@ -1,5 +1,5 @@
 {% set name = "mne-kit-gui" %}
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mne-kit-gui-{{ version }}.tar.gz
-  sha256: ca319b34355a515c2d599f3149d71a4e8ba30309b7e3cf044f9ebb6a13b3ee18
+  sha256: 0fb99ac061e76f3983ab39dc74a0eac2459ceffc4a6b8fb37bea0922f6353d2e
 
 build:
   number: 1
