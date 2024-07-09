@@ -1,5 +1,6 @@
 {% set name = "mne-kit-gui" %}
 {% set version = "1.2.0" %}
+{% set build = 2 %}
 
 
 package:
@@ -11,19 +12,18 @@ source:
   sha256: 0fb99ac061e76f3983ab39dc74a0eac2459ceffc4a6b8fb37bea0922f6353d2e
 
 build:
-  number: 1
+  number: {{ build }}
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - pip
     - python >=3.7
+    - pip
   run:
     - python >=3.7
     - mne-base >=0.23
     - mayavi
-    - pyqt >=5.12
     - nibabel
 
 test:
