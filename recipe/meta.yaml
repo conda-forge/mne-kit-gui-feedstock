@@ -8,7 +8,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mne-kit-gui-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mne_kit_gui-{{ version }}.tar.gz
   sha256: a270acc2dfd3e2127e7d58bbf8bad1c5675d6168b8845dff78748ab0aa12d263
 
 build:
