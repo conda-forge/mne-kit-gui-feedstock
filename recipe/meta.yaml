@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mne-kit-gui-{{ version }}.tar.gz
-  sha256: 0fb99ac061e76f3983ab39dc74a0eac2459ceffc4a6b8fb37bea0922f6353d2e
+  sha256: a270acc2dfd3e2127e7d58bbf8bad1c5675d6168b8845dff78748ab0aa12d263
 
 build:
   number: {{ build }}
